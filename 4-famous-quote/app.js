@@ -1,0 +1,1 @@
+console.log(`Imam Ali once said, "When you succeed be humble".`);
