@@ -23,7 +23,7 @@ guests.push("Talha");
 
 invitation(guests);
 
-console.log(`Unfortunatly there is a small problem and I can only two person.\n`);
+console.log(`Unfortunatly there is a small problem and I can only invite two person.\n`);
 
 for (let i = 0; i < guests.length; i++) {
     do {
@@ -35,8 +35,4 @@ invitation(guests);
 guests=[];
 console.log("Final Array: ", guests);
 
-module.exports = {
-    guestsList: function() {
-       return guests;
-    }
- }
+export const guestsList = guests;
