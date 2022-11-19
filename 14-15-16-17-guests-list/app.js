@@ -35,4 +35,4 @@ invitation(guests);
 guests=[];
 console.log("Final Array: ", guests);
 
-export const guestsList = guests;
+// export const guestsList = guests;
